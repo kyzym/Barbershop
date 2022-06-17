@@ -1,0 +1,25 @@
+// .mobile-networks {
+//   @include tabmin768 {
+//     display: none;
+//   }
+
+//   display: flex;
+//   flex-wrap: wrap;
+
+//   &__link {
+//     color: $accent-color;
+//     font-weight: 500;
+//     font-size: 18px;
+//     line-height: 1.22;
+//   }
+
+//   &__list {
+//     &:not(:last-child) {
+//       border-right: 1px solid $modal-border;
+//       padding-right: 10px;
+//     }
+//     &:not(:first-child) {
+//       padding-left: 10px;
+//     }
+//   }
+// }

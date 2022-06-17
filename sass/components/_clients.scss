@@ -1,0 +1,54 @@
+// .clients {
+//   display: flex;
+//   flex-wrap: wrap;
+//   @include deskmax1199 {
+//     margin-top: calc(-1 * 30px);
+//     margin-left: calc(-1 * 30px);
+//   }
+
+//   &__item {
+//     @include tab768_1199 {
+//       flex-basis: calc(100% / 3 - 30px);
+//       margin-left: 30px;
+//       margin-top: 30px;
+//     }
+//     @include tabmax767 {
+//       flex-basis: calc(100% / 2 - 30px);
+//       margin-left: 30px;
+//       margin-top: 30px;
+//     }
+//   }
+// }
+// @include deskmin1200 {
+//   .clients__item:not(:last-child) {
+//     margin-right: 30px;
+//   }
+// }
+
+// .clients__link {
+//   display: flex;
+//   @extend %justalign;
+//   border: 1px solid $icon-nohover-color;
+//   border-radius: 4px;
+//   height: 92px;
+//   fill: $icon-nohover-color;
+//   transition: fill $cubic, border $cubic;
+
+//   &:hover,
+//   &:focus {
+//     overline: none;
+//     border: 1px solid $accent-color;
+//     fill: $accent-color;
+//   }
+
+//   @include tabmax767 {
+//     width: 210px;
+//     width: 100%;
+//   }
+//   @include tab768_1199 {
+//     width: 226px;
+//   }
+//   @include deskmin1200 {
+//     width: 170px;
+//   }
+// }

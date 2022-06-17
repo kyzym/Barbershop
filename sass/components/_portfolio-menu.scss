@@ -1,0 +1,64 @@
+// .portfolio__menu {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: start;
+//   margin-bottom: 40px;
+//   @include tabmin768 {
+//     margin-bottom: 30px;
+//     justify-content: center;
+//   }
+//   @include deskmin1200 {
+//     margin-bottom: 50px;
+//     justify-content: center;
+//   }
+// }
+// .portfolio__item {
+//   @include tabmax767 {
+//     &:not(:last-child) {
+//       margin-right: 8px;
+//     }
+//     &:nth-child(-4n) {
+//       margin-right: 0px;
+//     }
+//     &:nth-child(2n + 1) {
+//       margin-bottom: 15px;
+//     }
+//     &:last-child {
+//       margin-bottom: 0;
+//     }
+//   }
+
+//   @include tabmin768 {
+//     margin-bottom: 0;
+//     &:not(:last-child) {
+//       margin-right: 8px;
+//     }
+//   }
+//   @include deskmin1200 {
+//     margin-right: 9px;
+//   }
+// }
+
+// .portfolio__button {
+//   color: $title-color;
+//   background-color: $sub-color;
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 1.63;
+//   letter-spacing: 0.03em;
+//   cursor: pointer;
+//   text-align: center;
+//   border: none;
+
+//   padding: 6px 22px;
+//   border-radius: 4px;
+
+//   transition: color $cubic, background-color $cubic, box-shadow $cubic;
+
+//   &:hover,
+//   &:focus {
+//     color: $hero-color;
+//     background-color: $accent-color;
+//     box-shadow: $btn-filter-shadow;
+//   }
+// }

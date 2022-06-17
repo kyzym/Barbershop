@@ -1,0 +1,84 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  color: $sub-text-color;
+  background-color: $hero-color;
+  font-family: $body-font;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  // @include deskmin1200 {
+  //   padding-top: 94px;
+  //   padding-bottom: 94px;
+  // }
+}
+
+ul,
+h1,
+h2,
+h3,
+li,
+p,
+input {
+  padding: 0;
+  margin: 0;
+}
+$cubic: 250ms $cubic-transm;
+
+%justalign {
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  // @include telmin480 {
+  //   width: 480px;
+  // }
+
+  // @include tabmin768 {
+  //   width: 768px;
+  // }
+
+  // @include deskmin1200 {
+  //   width: 1200px;
+  // }
+}

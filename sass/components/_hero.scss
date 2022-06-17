@@ -1,0 +1,64 @@
+// .hero {
+//   background-color: $bg-color;
+//   text-align: center;
+
+//   margin-left: auto;
+//   margin-right: auto;
+
+//   max-width: 480px;
+//   padding: 118px 0;
+
+//   background-position: center;
+
+//   background-image: linear-gradient($overlay-bg-color, $overlay-bg-color),
+//     url(../images/img480-1x.jpg);
+//   background-size: 480px 400px;
+
+//   @include x2 {
+//     background-image: linear-gradient($overlay-bg-color, $overlay-bg-color),
+//       url(../images/img480-2x.jpg);
+//   }
+
+//   @include tabmin768 {
+//     max-width: 768px;
+//     padding: 118px 0;
+
+//     background-image: linear-gradient($overlay-bg-color, $overlay-bg-color),
+//       url(../images/img768-1x.jpg);
+//     background-size: 768px 400px;
+
+//     @include x2 {
+//       background-image: linear-gradient($overlay-bg-color, $overlay-bg-color),
+//         url(../images/img768-2x.jpg);
+//     }
+//   }
+
+//   @include deskmin1200 {
+//     max-width: 1600px;
+//     padding: 200px 0;
+
+//     background-image: linear-gradient($overlay-bg-color, $overlay-bg-color),
+//       url(../images/1600-1x.jpg);
+//     background-size: 1600px 600px;
+
+//     @include x2 {
+//       background-image: linear-gradient($overlay-bg-color, $overlay-bg-color),
+//         url(../images/1600-2x.jpg);
+//     }
+//   }
+// }
+
+// .hero__title {
+//   color: $hero-color;
+//   letter-spacing: 0.06em;
+//   font-weight: 900;
+//   font-size: 26px;
+//   line-height: 1.62;
+//   text-transform: uppercase;
+//   margin-bottom: 30px;
+
+//   @include deskmin1200 {
+//     font-size: 44px;
+//     line-height: 1.36;
+//   }
+// }

@@ -1,0 +1,71 @@
+// .our-command {
+//   background-color: $sub-color;
+// }
+
+// .our-peoples {
+//   @include tab768_1199 {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin-top: -30px;
+//     margin-left: -30px;
+//   }
+//   @include deskmin1200 {
+//     display: flex;
+//   }
+
+//   &__item {
+//     text-align: center;
+//     box-shadow: $card-people-shadow;
+//     border-radius: 0px 0px 4px 4px;
+//     background-color: $hero-color;
+
+//     @include tabmax767 {
+//       &:not(:last-child) {
+//         margin-bottom: 30px;
+//       }
+//     }
+//     @include tab768_1199 {
+//       flex-basis: calc(100% / 2 - 30px);
+//       margin-left: 30px;
+//       margin-top: 30px;
+//     }
+//     @include deskmin1200 {
+//       &:not(:last-child) {
+//         margin-right: 30px;
+//       }
+//     }
+//   }
+// }
+
+// .command-member {
+//   & .social-networks {
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+//   @include tabmax767 {
+//     padding-top: 30px;
+//     padding-bottom: 24px;
+//   }
+//   @include tab768_1199 {
+//     padding-top: 30px;
+//     padding-bottom: 24px;
+//   }
+//   @include deskmin1200 {
+//     padding: 30px 0;
+//   }
+
+//   &__name {
+//     color: $title-color;
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 1.19;
+
+//     margin-bottom: 10px;
+//   }
+
+//   &__position {
+//     font-size: 16px;
+//     line-height: 1.19;
+//     margin-bottom: 16px;
+//   }
+// }
