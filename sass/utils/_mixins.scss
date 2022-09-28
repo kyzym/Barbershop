@@ -1,0 +1,46 @@
+@mixin media($type) {
+  $mobi: 480px;
+  $tablet: 768px;
+  $desk: 1280px;
+
+  @if $type == 'mobi-only' {
+    @media screen and (max-width: ($tablet - 0.02px)) {
+      @content;
+    }
+  }
+
+  @if $type == 'mobi' {
+    @media screen and (min-width: $mobi) {
+      @content;
+    }
+  }
+
+  @if $type == 'tablet-only' {
+    @media screen and (min-width: $tablet) and (max-width: ($desk - 0.02px)) {
+      @content;
+    }
+  }
+
+  @if $type == 'tablet' {
+    @media screen and (min-width: $tablet) {
+      @content;
+    }
+  }
+
+  @if $type == 'not-desk' {
+    @media screen and (max-width: ($desk - 0.02px)) {
+      @content;
+    }
+  }
+
+  @if $type == 'desk' {
+    @media screen and (min-width: $desk) {
+      @content;
+    }
+  }
+  @if $type == 'retina' {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.about-us {
+  padding: 84px 0;
+}
+
+.about-us .container {
+  @include media(tablet) {
+    display: flex;
+  }
+}
+
+.about-us__list {
+  @include media(mobi-only) {
+    display: none;
+  }
+  @include media(tablet) {
+    margin-right: 30px;
+  }
+  @include media(desk) {
+    display: flex;
+    margin-right: 30px;
+  }
+}
+
+.about-us__pic {
+  @include media(tablet) {
+    width: 330px;
+    height: 235px;
+  }
+  @include media(desk) {
+    width: 270px;
+    height: 445px;
+  }
+}
+
+.about-us__item:first-child {
+  @include media(tablet-only) {
+    margin-bottom: 30px;
+  }
+  @include media(desk) {
+    margin-right: 30px;
+  }
+}
+
+.text {
+  color: $second-text-color;
+}
+
+.about-us__text {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.63;
+  @include media(desk) {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+.text--smol {
+  margin-bottom: 40px;
+}
+
+.about-us__thumb .button {
+  @include media(tablet) {
+    margin: 0;
+  }
+}
+
+@include media(mobi-only) {
+  .text--smol {
+    height: 80px;
+    overflow: hidden;
+  }
+  .myBtn {
+    display: block;
+    color: red;
+    background-color: white;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .open {
+    height: 150px;
+  }
+}
+@include media(tablet) {
+  .myBtn {
+    display: none;
+  }
+}

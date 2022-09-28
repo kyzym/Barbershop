@@ -1,0 +1,41 @@
+.footer {
+  padding: 44px 0;
+}
+
+.footer__copi {
+  color: $grey-text-color;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+
+.socials-menu {
+  display: flex;
+  align-items: center;
+  @include media(mobi-only) {
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+
+  &::before {
+    content: '';
+    background: $main-text-color;
+    width: 60px;
+    height: 1px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 40px;
+  }
+}
+
+.socials-menu__item + .socials-menu__item {
+  margin-lright: 40px;
+}
+
+.footer__cont {
+  @include media(tablet) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
